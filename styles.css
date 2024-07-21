@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-image: url(IMG/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+}
+
+.logo {
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 10px;
+}
+
+.copyRight {
+    font-size: 14px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(IMG/hero-backgroundStars.png);
+    height: 650px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.heroTitle {
+    font-weight: 900;
+    font-size: 55px;
+    width: 700px;
+    margin-top: -125px;
+}
+
+.description {
+    color: white;
+    font-family: "Inter", sans-serif;
+    width: 750px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.heroBtn {
+    font-family: 'Orbitron', sans-serif;
+    padding: 28px 40px;
+    gap: 8px;
+    width: 206px;
+    height: 75px;
+    background: linear-gradient(315deg, #CD1013 1.19%, #FF0004 1.5%, #2500FF 94.46%);
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-weight: 800;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.saturnHero{
+    position: absolute;
+    top: 200px;
+}
+
+.saturnHero img{
+    height: 380px;
+}
+
+.neptuneHero{
+    position: absolute;
+    bottom: 0;
+}
+
+.jupiterHero{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.marsHero{
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+
+.marsHero img{
+    height: 320px;
+}
+
+.earthHero{
+    position: absolute;
+    top: 80px;
+    left: 700px;
+    z-index: -1;
+}
+
+.uranusHero{
+    position: absolute;
+    top: 300px;
+    left: 450px;
+}
