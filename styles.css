@@ -6,10 +6,9 @@
 
 body {
     font-family: 'Orbitron', sans-serif;
-    background-image: url(IMG/Background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     color: white;
+    background-image: url(IMG/heroBackground.png);
+    background-size: cover;
 }
 
 header {
@@ -41,11 +40,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(IMG/hero-backgroundStars.png);
     height: 650px;
     text-align: center;
     padding: 20px;
-    background-size: cover;
     display: flex;
     flex-direction: column;
 }
