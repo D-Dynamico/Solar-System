@@ -10,6 +10,8 @@ body {
     overflow-x: hidden;
     font-family: 'Orbitron', sans-serif;
     color: white;
+    border-left: 7px solid #180c34;
+    border-right: 7px solid #180c34;
 }
 
 header {
@@ -18,6 +20,10 @@ header {
     align-items: center;
     padding: 20px;
     position: sticky;
+}
+
+.homePage{
+    height: 850px;
 }
 
 .logo {
@@ -37,10 +43,6 @@ header {
     font-size: 14px;
 }
 
-.homePage{
-    height: 750px;
-}
-
 .hero {
     display: flex;
     justify-content: center;
@@ -49,6 +51,7 @@ header {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 .heroTitle {
@@ -84,11 +87,58 @@ header {
     font-size: 15px;
 }
 
+.saturnHero{
+    position: absolute;
+    left: 0;
+    top: 200px;
+}
+
+.saturnHero img{
+    height: 400px;
+}
+
+.jupiterHero{
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+}
+
+.jupiterHero img{
+    height: 300px;
+}
+
+.marsHero{
+    position: absolute;
+    right: 0;
+    top: 150px;
+}
+
+.marsHero img{
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .sun{
     background-image: url(IMG/Sun/sunBackground.png);
     height: 1100px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: -22px;
 }
-
 
