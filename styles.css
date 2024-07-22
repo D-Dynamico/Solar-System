@@ -22,7 +22,7 @@ header {
     flex-wrap: wrap;
 }
 
-.homePage{
+.homePage {
     height: 830px;
 }
 
@@ -52,7 +52,7 @@ header {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    margin-top:  45px;
+    margin-top: 45px;
 }
 
 .heroTitle {
@@ -89,196 +89,301 @@ header {
     cursor: pointer;
 }
 
-.saturnHero{
+.saturnHero {
     position: absolute;
     left: 0;
     top: 230px;
 }
 
-.saturnHero img{
+.saturnHero img {
     height: 430px;
 }
 
-.jupiterHero{
+.jupiterHero {
     position: absolute;
     bottom: -100px;
     right: 0;
 }
 
-.jupiterHero img{
+.jupiterHero img {
     height: 300px;
 }
 
-.marsHero{
+.marsHero {
     position: absolute;
     right: 0;
     top: 170px;
 }
 
-.marsHero img{
+.marsHero img {
     height: 300px;
 }
 
-.neptuneHero{
+.neptuneHero {
     position: absolute;
     bottom: -100px;
 }
 
-.neptuneHero img{
+.neptuneHero img {
     height: 170px;
 }
 
-.whiteplanetHero{
+.whiteplanetHero {
     position: absolute;
     top: 25px;
 }
 
-.whiteplanetHero img{
+.whiteplanetHero img {
     height: 200px;
 }
 
-.earthHero{
+.earthHero {
     position: absolute;
     top: 80px;
-    left: 750px;
+    left: 45vw;
     z-index: -2;
 }
 
-.uranusHero{
+.uranusHero {
     position: absolute;
     bottom: 290px;
     left: 380px;
+    z-index: -1;
 }
 
-.mercuryHero{
+.mercuryHero {
     position: absolute;
     bottom: -100px;
-    left: 620px;
+    left: 40vw;
 }
 
-.logoLeaf{
+.logoLeaf {
     position: absolute;
     top: 30px;
     left: 120px;
     z-index: -1;
 }
 
-.logoLeaf img{
+.logoLeaf img {
     height: 35px;
 }
 
-.cometBottom{
+.cometBottom {
     position: absolute;
     bottom: -100px;
     left: 0;
     z-index: -1;
 }
 
-.cometTop{
+.cometTop {
     position: absolute;
     top: 0;
     right: 0;
     z-index: -1;
 }
 
-.meteorite1{
+.meteorite1 {
     position: absolute;
     right: 120px;
     z-index: -1;
 }
 
-.meteorite2{
-    position: absolute;
-    left: 730px;
-    top: 330px;
-    z-index: -1;
-}
-
-.meteorite3{
+.meteorite3 {
     position: absolute;
     z-index: -1;
 }
 
-.meteorite4{
+.meteorite4 {
     position: absolute;
     z-index: -1;
     right: 125px;
     bottom: 0;
 }
 
-.sun{
+.sun {
     background-image: url(IMG/Sun/sunBackground.png);
     height: 1100px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-@media (min-width: 880px) and (max-width: 1020px) {
-    .sun{
+@media (min-width: 880px) and (max-width: 1024px) {
+    .sun {
         margin-top: -90px;
     }
 
-    .heroTitle{
+    .heroTitle {
         font-size: 40px;
         width: 500px;
     }
 
-    .description{
+    .description {
         font-size: 15px;
         width: 500px;
     }
 
-    .jupiterHero img{
+    .jupiterHero img {
         height: 230px;
     }
 
-    .cometTop img{
+    .cometTop img {
         height: 0px;
     }
 
-    .cometBottom{
+    .cometBottom {
         height: 0px;
     }
 
-    .earthHero{
+    .earthHero {
         left: 430px;
         top: 120px;
     }
 
-    .earthHero img{
+    .earthHero img {
         height: 100px;
     }
 
-    .saturnHero img{
+    .saturnHero img {
         height: 300px;
     }
 
-    .saturnHero{
+    .saturnHero {
         left: 7.5px;
     }
 
-    .whiteplanetHero img{
+    .whiteplanetHero img {
         height: 150px;
     }
 
-    .whiteplanetHero{
+    .whiteplanetHero {
         top: 50px;
+    }
+
+    .neptuneHero {
+        left: 7.5px;
+    }
+
+    .mercuryHero {
+        left: 350px;
+    }
+
+    .uranusHero {
+        left: 270px;
+        top: 280px;
+    }
+
+    .uranusHero img {
+        height: 60px;
+    }
+}
+
+@media (min-width:720px) and (max-width: 879px) {
+    
+    .heroTitle{
+        font-size: 48px;
+        width: 560px;
+    }
+
+    .description {
+        font-size: 10px;
+        width: 480px;
+    }
+
+    .homePage{
+        height: 650px;
+    }
+
+    .jupiterHero img {
+        height: 160px;
+    }
+
+    .cometTop img {
+        height: 0px;
+    }
+
+    .cometBottom {
+        height: 0px;
+    }
+
+    .earthHero img {
+        height: 90px;
+    }
+
+    .saturnHero img {
+        height: 260px;
+    }
+
+    .earthHero{
+        left: 400px;
+        top: 120px;
+    }
+
+    .saturnHero {
+        left: 7.5px;
+    }
+
+    .whiteplanetHero img {
+        height: 150px;
+    }
+
+    .whiteplanetHero {
+        top: 59px;
+    }
+
+    .neptuneHero, .mercuryHero, .jupiterHero {
+        bottom: -15px;
     }
 
     .neptuneHero{
         left: 7.5px;
     }
 
+    .neptuneHero img{
+        height: 150px;
+    }
+
+    .mercuryHero img{
+        height: 130px;
+    }
+
     .mercuryHero{
-        left: 350px;
+        left: 300px;
     }
 
     .uranusHero{
-        left: 270px;
-        top: 280px;
+        top: 298px;
+        left: 150px;
     }
 
     .uranusHero img{
-        height: 60px;
+        height: 50px;
     }
-  }
+
+    .jupiterHero img{
+        height: 200px;
+    }
+
+    .heroBtn{
+        width: 175px;
+        height: 60px;
+        padding: 0;
+    }
+
+    .marsHero img{
+        height: 250px;
+    }
+
+    .marsHero{
+        top: 110px;
+    }
+
+    .meteorite1{
+        top: 0;
+        right: 50px;
+    }
+
+    .meteorite3{
+        left: 250px;
+        top: 255px;
+    }
+}
