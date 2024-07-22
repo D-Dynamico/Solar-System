@@ -1,14 +1,15 @@
 * {
-    padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
 }
 
 body {
+    background-image: url(IMG/Hero/heroBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
     font-family: 'Orbitron', sans-serif;
     color: white;
-    background-image: url(IMG/heroBackground.png);
-    background-size: cover;
 }
 
 header {
@@ -36,11 +37,14 @@ header {
     font-size: 14px;
 }
 
+.homePage{
+    height: 650px;
+}
+
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 650px;
     text-align: center;
     padding: 20px;
     display: flex;
@@ -51,7 +55,7 @@ header {
     font-weight: 900;
     font-size: 55px;
     width: 700px;
-    margin-top: -125px;
+    margin-top: 25px;
 }
 
 .description {
@@ -80,45 +84,11 @@ header {
     font-size: 15px;
 }
 
-.saturnHero{
-    position: absolute;
-    top: 200px;
+.sun{
+    background-image: url(IMG/Sun/sunBackground.png);
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.saturnHero img{
-    height: 380px;
-}
 
-.neptuneHero{
-    position: absolute;
-    bottom: 0;
-}
-
-.jupiterHero{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.marsHero{
-    position: absolute;
-    right: 0;
-    top: 100px;
-}
-
-.marsHero img{
-    height: 320px;
-}
-
-.earthHero{
-    position: absolute;
-    top: 80px;
-    left: 700px;
-    z-index: -1;
-}
-
-.uranusHero{
-    position: absolute;
-    top: 300px;
-    left: 450px;
-}
