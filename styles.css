@@ -277,7 +277,7 @@ header {
     }
 }
 
-@media (min-width:720px) and (max-width: 879px) {
+@media (min-width:757px) and (max-width: 879px) {
     
     .heroTitle{
         font-size: 48px;
