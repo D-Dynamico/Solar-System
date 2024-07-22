@@ -23,7 +23,7 @@ header {
 }
 
 .homePage{
-    height: 850px;
+    height: 830px;
 }
 
 .logo {
@@ -58,7 +58,7 @@ header {
 .heroTitle {
     font-weight: 900;
     font-size: 75px;
-    width: 850px;
+    width: 778px;
     margin-top: 25px;
 }
 
@@ -141,12 +141,12 @@ header {
     position: absolute;
     top: 80px;
     left: 750px;
-    z-index: -1;
+    z-index: -2;
 }
 
 .uranusHero{
     position: absolute;
-    bottom: 250px;
+    bottom: 290px;
     left: 380px;
 }
 
@@ -211,6 +211,74 @@ header {
     height: 1100px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -22px;
 }
 
+@media (min-width: 880px) and (max-width: 1020px) {
+    .sun{
+        margin-top: -90px;
+    }
+
+    .heroTitle{
+        font-size: 40px;
+        width: 500px;
+    }
+
+    .description{
+        font-size: 15px;
+        width: 500px;
+    }
+
+    .jupiterHero img{
+        height: 230px;
+    }
+
+    .cometTop img{
+        height: 0px;
+    }
+
+    .cometBottom{
+        height: 0px;
+    }
+
+    .earthHero{
+        left: 430px;
+        top: 120px;
+    }
+
+    .earthHero img{
+        height: 100px;
+    }
+
+    .saturnHero img{
+        height: 300px;
+    }
+
+    .saturnHero{
+        left: 7.5px;
+    }
+
+    .whiteplanetHero img{
+        height: 150px;
+    }
+
+    .whiteplanetHero{
+        top: 50px;
+    }
+
+    .neptuneHero{
+        left: 7.5px;
+    }
+
+    .mercuryHero{
+        left: 350px;
+    }
+
+    .uranusHero{
+        left: 270px;
+        top: 280px;
+    }
+
+    .uranusHero img{
+        height: 60px;
+    }
+  }
