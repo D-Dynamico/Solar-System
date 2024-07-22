@@ -16,10 +16,10 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px;
-    position: sticky;
+    flex-wrap: wrap;
 }
 
 .homePage{
@@ -30,6 +30,7 @@ header {
     font-size: 35px;
     text-decoration: none;
     color: white;
+    font-weight: 700;
 }
 
 .navLink {
@@ -51,13 +52,13 @@ header {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top:  45px;
 }
 
 .heroTitle {
     font-weight: 900;
-    font-size: 55px;
-    width: 700px;
+    font-size: 75px;
+    width: 850px;
     margin-top: 25px;
 }
 
@@ -85,16 +86,17 @@ header {
     font-weight: 800;
     margin-top: 30px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .saturnHero{
     position: absolute;
     left: 0;
-    top: 200px;
+    top: 230px;
 }
 
 .saturnHero img{
-    height: 400px;
+    height: 430px;
 }
 
 .jupiterHero{
@@ -110,29 +112,99 @@ header {
 .marsHero{
     position: absolute;
     right: 0;
-    top: 150px;
+    top: 170px;
 }
 
 .marsHero img{
     height: 300px;
 }
 
+.neptuneHero{
+    position: absolute;
+    bottom: -100px;
+}
 
+.neptuneHero img{
+    height: 170px;
+}
 
+.whiteplanetHero{
+    position: absolute;
+    top: 25px;
+}
 
+.whiteplanetHero img{
+    height: 200px;
+}
 
+.earthHero{
+    position: absolute;
+    top: 80px;
+    left: 750px;
+    z-index: -1;
+}
 
+.uranusHero{
+    position: absolute;
+    bottom: 250px;
+    left: 380px;
+}
 
+.mercuryHero{
+    position: absolute;
+    bottom: -100px;
+    left: 620px;
+}
 
+.logoLeaf{
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    z-index: -1;
+}
 
+.logoLeaf img{
+    height: 35px;
+}
 
+.cometBottom{
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    z-index: -1;
+}
 
+.cometTop{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
 
+.meteorite1{
+    position: absolute;
+    right: 120px;
+    z-index: -1;
+}
 
+.meteorite2{
+    position: absolute;
+    left: 730px;
+    top: 330px;
+    z-index: -1;
+}
 
+.meteorite3{
+    position: absolute;
+    z-index: -1;
+}
 
-
-
+.meteorite4{
+    position: absolute;
+    z-index: -1;
+    right: 125px;
+    bottom: 0;
+}
 
 .sun{
     background-image: url(IMG/Sun/sunBackground.png);
