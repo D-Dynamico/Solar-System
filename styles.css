@@ -227,7 +227,7 @@ header {
 .sunDescription {
     width: 100vh;
     height: 72px;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -296,17 +296,18 @@ header {
     top: 5vh;
 }
 
-.mercuryOnly{
+.mercuryOnly {
     position: absolute;
     z-index: 2;
     top: 4.5vh;
 }
 
-.mercuryLayer1, .mercuryLayer2{
+.mercuryLayer1,
+.mercuryLayer2 {
     position: absolute;
 }
 
-.mercuryLayer1{
+.mercuryLayer1 {
     top: 2.5vh;
     animation: mercuryLayer1 5s linear infinite;
 }
@@ -315,12 +316,13 @@ header {
     0% {
         transform: translateX(5);
     }
+
     100% {
         transform: translateX(10px);
     }
 }
 
-.mercuryLayer2{
+.mercuryLayer2 {
     animation: mercuryLayer2 7s linear infinite;
 }
 
@@ -328,12 +330,13 @@ header {
     0% {
         transform: translateX(0px);
     }
+
     100% {
         transform: translateX(10px);
     }
 }
 
-.mercuryOnly img{
+.mercuryOnly img {
     height: 100vh;
 }
 
@@ -348,29 +351,31 @@ header {
     border-radius: 16px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 24px 40px;
+    padding: 20px 30px;
     gap: 24px;
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 140px;
     margin-top: 25px;
-    margin-right: 15px;
 }
 
-.mercuryCards{
+.mercuryCards {
     display: flex;
     flex-wrap: wrap;
-    width: 85vh;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 700px;
 }
 
-.mercuryTitle{
+.mercuryTitle {
     font-weight: 900;
     font-size: 50px;
     margin-bottom: 15px;
 }
 
-.mercuryDescription{
+.mercuryDescription {
     width: 40vw;
     font-family: 'Inter', sans-serif;
     font-weight: 200;
@@ -378,9 +383,17 @@ header {
     line-height: 25px;
 }
 
+.merTitle {
+    font-weight: 800;
+    font-size: 16px;
+    width: 220px;
+    margin-bottom: 2vh;
+}
 
-
-
+.merDistance, .merDegree{
+    font-weight: 900;
+    font-size: 35px;
+}
 
 
 
