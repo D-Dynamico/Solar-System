@@ -395,9 +395,17 @@ header {
     font-size: 35px;
 }
 
+.venus{
+    background-image: url(IMG/Venus/venusBackground.png);
+    height: 790px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
-
-
+.onlyVenus, .venusLayer1, .venusLayer2{
+    position: absolute;
+}
 
 
 
