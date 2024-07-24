@@ -229,7 +229,7 @@ header {
     height: 72px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 16px;
     line-height: 24px;
     margin-top: 20px;
@@ -263,6 +263,7 @@ header {
     height: 176px;
     background: radial-gradient(110.92% 172.47% at 91.09% 101.78%, #430E49 0.53%, #370D44 32.06%, #170B36 89.03%, #100A33 100%);
     border-radius: 16px;
+    border: 4px solid #300c3c;
 }
 
 .textCard {
@@ -305,6 +306,7 @@ header {
 .mercuryLayer1,
 .mercuryLayer2 {
     position: absolute;
+    left: -2px;
 }
 
 .mercuryLayer1 {
@@ -314,7 +316,7 @@ header {
 
 @keyframes mercuryLayer1 {
     0% {
-        transform: translateX(5);
+        transform: translateX(5px);
     }
 
     100% {
@@ -358,6 +360,7 @@ header {
     width: 250px;
     height: 140px;
     margin-top: 25px;
+    border: 4px solid #300c3c;
 }
 
 .mercuryCards {
@@ -390,12 +393,13 @@ header {
     margin-bottom: 2vh;
 }
 
-.merDistance, .merDegree{
+.merDistance,
+.merDegree {
     font-weight: 900;
     font-size: 35px;
 }
 
-.venus{
+.venus {
     background-image: url(IMG/Venus/venusBackground.png);
     height: 790px;
     background-size: cover;
@@ -403,68 +407,245 @@ header {
     position: relative;
 }
 
-.onlyVenus, .venusLayer1, .venusLayer2{
+.onlyVenus,
+.venusLayer1,
+.venusLayer2 {
+    position: absolute;
+    right: -1vh;
+    bottom: 0;
+}
+
+.onlyVenus {
+    height: 95vh;
+}
+
+.venusLayer1 {
+    height: 98vh;
+}
+
+.venusLayer2 {
+    height: 100vh;
+}
+
+.venusContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 48vw;
+    position: absolute;
+    top: 25vh;
+    left: 3vw;
+}
+
+.venusTitle {
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.venusDescription {
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 60px;
+}
+
+.venCard {
+    background: radial-gradient(110.92% 172.47% at 91.09% 101.78%, #430E49 0.53%, #370D44 32.06%, #170B36 89.03%, #100A33 100%);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 24px;
+    margin-bottom: 25px;
+    position: relative;
+    height: 130px;
+    border: 4px solid #300c3c;
+}
+
+.venCard {
+    left: 25px;
+}
+
+.venTitle {
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.venDistance,
+.venDegree {
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.venusLayer1 {
+    animation: venusLayer1 5s linear infinite;
+}
+
+@keyframes venusLayer1 {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+.venusLayer2 {
+    animation: venusLayer2 7s linear infinite;
+}
+
+@keyframes venusLayer2 {
+    0% {
+        transform: translateX(5px);
+    }
+
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+.earth {
+    background-image: url(IMG/Earth/earthBackground.png);
+    position: relative;
+    height: 900px;
+    background-size: cover;
+}
+
+.onlyEarth,
+.earthLayer {
+    position: absolute;
+    bottom: 0;
+    left: 6vh;
+}
+
+.onlyEarth {
+    left: 8vw;
+}
+
+.twistedArrow,
+.rocketEarth {
     position: absolute;
 }
 
+.rocketEarth {
+    bottom: 15vh;
+    z-index: 2;
+    /*animation: move-semi-circle 10s ease-in-out infinite;*/
+}
 
+/*
+@keyframes move-semi-circle {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+        transform: translate(30vw, -150px) ; 
+    }
+    50% {
+        transform: translate(80vw, 0) rotate(180deg); 
+    }
+    75% {
+        transform: translate(30vw, -150px); 
+    }
+    100% {
+        transform: translate(0, 0) rotate(360deg);
+    }
+}
+*/
 
+.earthTitle {
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
 
+.earthContent {
+    position: absolute;
+    width: 60vw;
+    left: 5vw;
+    top: 5vh;
+}
 
+.moonContent {
+    position: absolute;
+    width: 55vw;
+    left: 8vw;
+    top: 42vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 24px;
+}
 
+.earthDescription {
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+}
 
+.twistedArrow {
+    right: 22vw;
+    top: 48vh;
+    animation: reveal linear 2s infinite;
+}
 
+@keyframes reveal {
+    0% {
+        clip-path: inset(0 0 0 100%); /* Start with the right side clipped */
+    }
+    100% {
+        clip-path: inset(0 0 0 0); /* Reveal the entire image */
+    }
+}
 
+.earthCard {
+    position: absolute;
+    right: 10vw;
+    top: 8vh;
+    background: radial-gradient(110.92% 172.47% at 91.09% 101.78%, #430E49 0.53%, #370D44 32.06%, #170B36 89.03%, #100A33 100%);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 24px;
+    height: 130px;
+    width: 18vw;
+    border: 4px solid #300c3c;
+}
 
+.earTitle {
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
 
+.earDistance {
+    font-weight: 900;
+    font-size: 35px;
+}
 
+.moonTitle {
+    font-weight: 900;
+    font-size: 40px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.moonDescription{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: right;
+}
 
 
 
