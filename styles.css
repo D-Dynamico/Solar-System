@@ -1235,8 +1235,6 @@ header {
     transition: filter 0.3s ease-in-out, transform 0.1s ease-in-out;;
 }
 
-
-
 .submitButton:hover{
     filter: brightness(0.85);
 }
