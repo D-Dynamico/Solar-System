@@ -1187,13 +1187,17 @@ header {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    margin-bottom: 5vw;
+    margin-bottom: 5%;
 }
 
 .footerLast {
-    position: absolute;
-    bottom: 0;
     width: 88vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 
 .searchBar {
@@ -2258,5 +2262,13 @@ header {
 
     .footerDescription{
         font-size: 15px;
+    }
+
+    .footerTitle{
+        font-size: 45px;
+    }
+
+    .searchBar{
+        height: 55px;
     }
 }   
