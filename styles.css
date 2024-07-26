@@ -17,7 +17,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .homePage {
@@ -1938,22 +1938,22 @@ header {
     }
 
     .venus {
-        height: 720px;
+        height: 700px;
     }
 
     .onlyVenus {
-        height: 530px;
+        height: 400px;
         right: -5px;
     }
 
     .venusLayer1 {
-        height: 540px;
-        right: 0;
+        height: 410px;
+        right: 2px;
     }
 
     .venusLayer2 {
-        height: 560px;
-        right: 0;
+        height: 420px;
+        right: 2px;
     }
 
     .venusTitle {
@@ -1982,7 +1982,7 @@ header {
 
     .onlyEarth,
     .earthLayer {
-        width: 920px;
+        width: 100%;
     }
 
     .onlyEarth {
@@ -1994,13 +1994,13 @@ header {
     }
 
     .moonContent {
-        top: 35vw;
+        top: 40%;
     }
 
     .twistedArrow {
-        height: 140px;
+        height: 10px;
         left: 65vw;
-        top: 40vw;
+        top: 45%;
     }
 
     .earthCard {
@@ -2025,20 +2025,24 @@ header {
     }
 
     .marCard {
-        width: 210px;
-        height: 100px;
+        width: 160px;
+        height: 80px;
         gap: 15px;
         padding: 10px 20px;
-        right: 2vw;
+        right: 3%;
     }
 
     .marTitle {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .marDistance,
     .marDegree {
-        font-size: 22px;
+        font-size: 18px;
+    }
+
+    .marDiaPic{
+        height: 60px;
     }
 
     .marsCards {
@@ -2046,12 +2050,12 @@ header {
     }
 
     .marsMoonContent {
-        left: 44vw;
+        left: 55%;
         bottom: 10vh;
     }
 
     .marsMoonTitle {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     .marsMoonDescription {
@@ -2060,8 +2064,9 @@ header {
     }
 
     .marsArrow {
-        top: 54vw;
-        left: 48vw;
+        top: 72%;
+        left: 58%;
+        height: 40px;
     }
 
     .jupCard {
@@ -2074,6 +2079,10 @@ header {
 
     .jupTitle {
         font-size: 14px;
+    }
+
+    .jupiterTitle{
+        font-size: 50px;
     }
 
     .jupDistance,
@@ -2098,19 +2107,23 @@ header {
     }
 
     .saturn {
-        height: 800px;
+        height: 720px;
     }
 
     .satCard {
-        width: 220px;
-        height: 110px;
+        width: 200px;
+        height: 100px;
         gap: 15px;
-        padding: 12px 24px;
+        padding: 10px 20px;
         right: 2vw;
     }
 
     .satTitle {
         font-size: 14px;
+    }
+
+    .saturnTitle{
+        font-size: 50px;
     }
 
     .satDistance,
@@ -2124,15 +2137,17 @@ header {
     }
 
     .uranusOnly{
-        height: 42vw;
+        height: 43%;
     }
 
     .uranusLayer1{
-        height: 37vw;
+        height: 37.4%;
+        right: 1%;
     }
 
     .uranusLayer2{
-        height: 38vw;
+        height: 37.8%;
+        right: 1%;
     }
 
     .uraCard {
@@ -2141,6 +2156,10 @@ header {
         gap: 15px;
         padding: 12px 24px;
         right: 2vw;
+    }
+
+    .uranusDescription{
+        width: 140%;
     }
 
     .uraDistance,
@@ -2157,7 +2176,8 @@ header {
     }
 
     .uranusCards{
-        right: 1.5%;
+        right: 3%;
+        flex-direction: column;
     }
 
     .nepCard {
@@ -2178,7 +2198,8 @@ header {
     }
 
     .neptuneCards{
-        top: 30vw;
+        top: 28%;
+        left: 20%;
     }
 
     .neptuneOnly{
@@ -2217,4 +2238,20 @@ header {
     .submitButton{
         width: 20vw;
     }
-}
+
+    #footerLogo{
+        font-size: 22px;
+    }
+
+    #footercopyRight{
+        font-size: 12px;
+    }
+
+    .submitButton{
+        font-size: 125%;
+    }
+
+    .footerDescription{
+        font-size: 15px;
+    }
+}   
