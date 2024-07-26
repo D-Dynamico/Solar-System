@@ -2009,6 +2009,7 @@ header {
         gap: 15px;
         padding: 10px 20px;
         right: 2vw;
+        top: 25%;
     }
 
     .earTitle {
@@ -2046,12 +2047,12 @@ header {
     }
 
     .marsCards {
-        top: 18vh;
+        top: 5%;
     }
 
     .marsMoonContent {
         left: 55%;
-        bottom: 10vh;
+        bottom: 5vh;
     }
 
     .marsMoonTitle {
@@ -2188,6 +2189,10 @@ header {
         right: 2vw;
     }
 
+    .neptune{
+        height: 900px;
+    }
+
     .nepDistance,
     .nepDegree {
         font-size: 26px;
@@ -2198,7 +2203,7 @@ header {
     }
 
     .neptuneCards{
-        top: 28%;
+        top: 35%;
         left: 20%;
     }
 
