@@ -1171,6 +1171,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 
 .footerTitle {
@@ -2272,3 +2273,561 @@ header {
         height: 55px;
     }
 }   
+
+@media (min-width:650px) and (max-width: 768px) {
+
+    .heroTitle {
+        font-size: 44px;
+        width: 560px;
+    }
+
+    .description {
+        font-size: 9px;
+        width: 440px;
+    }
+
+    header{
+        padding: 10px;
+    }
+
+    .logo{
+        font-size: 25px;
+    }
+
+    .homePage {
+        height: 660px;
+    }
+
+    .jupiterHero img {
+        height: 160px;
+    }
+
+    .earthHero img {
+        height: 90px;
+    }
+
+    .saturnHero img {
+        height: 260px;
+    }
+
+    .earthHero {
+        left: 400px;
+        top: 120px;
+    }
+
+    .saturnHero {
+        left: 7.5px;
+    }
+
+    .whiteplanetHero img {
+        height: 150px;
+    }
+
+    .whiteplanetHero {
+        top: 59px;
+    }
+
+    .neptuneHero,
+    .mercuryHero,
+    .jupiterHero {
+        bottom: -15px;
+    }
+
+    .neptuneHero {
+        left: 7.5px;
+    }
+
+    .neptuneHero img {
+        height: 150px;
+    }
+
+    .mercuryHero img {
+        height: 130px;
+    }
+
+    .mercuryHero {
+        left: 300px;
+    }
+
+    .uranusHero {
+        top: 298px;
+        left: 150px;
+    }
+
+    .uranusHero img {
+        height: 50px;
+    }
+
+    .jupiterHero img {
+        height: 200px;
+    }
+
+    .heroBtn {
+        width: 175px;
+        height: 60px;
+        padding: 0;
+    }
+
+    .marsHero img {
+        height: 250px;
+    }
+
+    .marsHero {
+        top: 110px;
+    }
+
+    .sunImage img {
+        width: 95vw;
+    }
+
+    .sunImage {
+        position: absolute;
+        top: 2px;
+    }
+
+    .sun {
+        height: 800px;
+    }
+
+    .sunContent {
+        bottom: 40vw;
+    }
+
+    .sunDescription{
+        width: 580px;
+    }
+
+    .sunCard {
+        width: 220px;
+        height: 100px;
+        gap: 15px;
+        padding: 10px 20px;
+    }
+
+    .sunCards{
+        bottom: 15vw;
+    }
+
+    .sunCardTitle {
+        font-size: 14px;
+    }
+
+    .sunCardDistance,
+    .sunCardDegree {
+        font-size: 19px;
+    }
+
+    .mercury {
+        height: 650px;
+    }
+
+    .mercuryContent {
+        right: 6vw;
+        width: 50vw;
+        top: 8vw;
+    }
+
+    .mercuryTitle{
+        font-size: 45px;
+    }
+
+    .mercuryDescription{
+        font-size: 15px;
+    }
+
+    .merCard {
+        width: 160px;
+        height: 80px;
+        gap: 15px;
+        padding: 10px 20px;
+    }
+
+    .mercuryCards {
+        justify-content: space-evenly;
+        top: 45%;
+        right: 0;
+        height: 32vw;
+        width: 67vw;
+    }
+
+    .mercuryTitle {
+        font-size: 50px;
+    }
+
+    .merTitle {
+        font-size: 10px;
+    }
+
+    .mercuryOnly {
+        height: 49.8vw;
+    }
+
+    .mercuryLayer1{
+        height: 50vw;
+    }
+
+    .mercuryLayer2{
+        height: 50.5vw;
+    }
+
+    .merDegree,
+    .merDistance {
+        font-size: 16px;
+    }
+
+    .mercuryOnly {
+        top: 14vw;
+    }
+
+    .merDiameter, .merThermo{
+        height: 55px;
+    }
+
+    .mercuryLayer1,
+    .mercuryLayer2 {
+        top: 14vw;
+    }
+
+    .venus {
+        height: 700px;
+    }
+
+    .onlyVenus {
+        height: 350px;
+        right: -5px;
+    }
+
+    .venusLayer1 {
+        height: 360px;
+        right: 2px;
+    }
+
+    .venusLayer2 {
+        height: 370px;
+        right: 2px;
+    }
+
+    .venusTitle {
+        font-size: 50px;
+    }
+
+    .venusDiaimg, .venustempimg{
+        height: 60px;
+    }
+
+    .venCard {
+        width: 160px;
+        height: 90px;
+        gap: 15px;
+        padding: 10px 20px;
+    }
+
+    .venTitle {
+        font-size: 12px;
+    }
+
+    .venDegree,
+    .venDistance {
+        font-size: 18px;
+    }
+
+    .venusContent {
+        top: 13vw;
+    }
+
+    .onlyEarth,
+    .earthLayer {
+        width: 100%;
+    }
+
+    .onlyEarth {
+        left: 0;
+    }
+
+    .earthLayer {
+        left: 0.2vw;
+    }
+
+    .moonContent {
+        top: 40%;
+    }
+
+    .twistedArrow {
+        height: 10px;
+        left: 65vw;
+        top: 45%;
+    }
+
+    .earthCard {
+        width: 180px;
+        height: 100px;
+        gap: 15px;
+        padding: 10px 20px;
+        right: 2vw;
+        top: 25%;
+    }
+
+    .earTitle {
+        font-size: 12px;
+    }
+
+    .earDistance {
+        font-size: 22px;
+    }
+
+    .marsOnly {
+        height: 400px;
+        width: 430px;
+    }
+
+    .marCard {
+        width: 160px;
+        height: 80px;
+        gap: 15px;
+        padding: 10px 20px;
+        right: 3%;
+    }
+
+    .marTitle {
+        font-size: 10px;
+    }
+
+    .marDistance,
+    .marDegree {
+        font-size: 18px;
+    }
+
+    .marDiaPic{
+        height: 60px;
+    }
+
+    .marsCards {
+        top: 5%;
+    }
+
+    .marsMoonContent {
+        left: 55%;
+        bottom: 5vh;
+    }
+
+    .marsMoonTitle {
+        font-size: 20px;
+    }
+
+    .marsMoonDescription {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .marsArrow {
+        top: 72%;
+        left: 58%;
+        height: 40px;
+    }
+
+    .jupCard {
+        width: 220px;
+        height: 110px;
+        gap: 15px;
+        padding: 12px 24px;
+        right: 2vw;
+    }
+
+    .jupTitle {
+        font-size: 14px;
+    }
+
+    .jupiterTitle{
+        font-size: 50px;
+    }
+
+    .jupDistance,
+    .jupDegree {
+        font-size: 26px;
+    }
+
+    .onlyJupiter {
+        height: 55vw;
+    }
+
+    .jupiterLayer1 {
+        height: 43vw;
+    }
+
+    .jupiterLayer2 {
+        height: 44vw;
+    }
+
+    .jupiter {
+        height: 745px;
+    }
+
+    .saturn {
+        height: 720px;
+    }
+
+    .satCard {
+        width: 200px;
+        height: 100px;
+        gap: 15px;
+        padding: 10px 20px;
+        right: 2vw;
+    }
+
+    .satTitle {
+        font-size: 14px;
+    }
+
+    .saturnTitle{
+        font-size: 50px;
+    }
+
+    .satDistance,
+    .satDegree {
+        font-size: 26px;
+    }
+
+    .saturnOnly {
+        height: 56vw;
+        top: 27%;
+    }
+
+    .uranusOnly{
+        height: 43%;
+    }
+
+    .uranusLayer1{
+        height: 37.4%;
+        right: 1%;
+    }
+
+    .uranusLayer2{
+        height: 37.8%;
+        right: 1%;
+    }
+
+    .uraCard {
+        width: 210px;
+        height: 100px;
+        gap: 15px;
+        padding: 12px 24px;
+        right: 2vw;
+    }
+
+    .uranusDescription{
+        width: 140%;
+    }
+
+    .uraDistance,
+    .uraDegree {
+        font-size: 26px;
+    }
+
+    .uraTitle {
+        font-size: 14px;
+    }
+
+    .uranusTitle{
+        font-size: 50px;
+    }
+
+    .uranusCards{
+        right: 3%;
+        flex-direction: column;
+    }
+
+    .nepCard {
+        width: 210px;
+        height: 100px;
+        gap: 15px;
+        padding: 12px 24px;
+        right: 2vw;
+    }
+
+    .neptune{
+        height: 900px;
+    }
+
+    .nepDistance,
+    .nepDegree {
+        font-size: 26px;
+    }
+
+    .nepTitle {
+        font-size: 14px;
+    }
+
+    .neptuneCards{
+        top: 35%;
+        left: 20%;
+    }
+
+    .neptuneOnly{
+        width: 75%;
+    }
+
+    .neptuneLayer1{
+        width: 72.8%;
+        left: 0;
+    }
+
+    .neptuneLayer2{
+        width: 73.2%;
+        left: 0;
+    }
+
+    .nepmoonSmall{
+        height: 80px;
+        right: 28vw;
+        bottom: 22vw;
+    }
+
+    .nepmoonBig{
+        height: 150px;
+        bottom: 28vw;
+    }
+
+    .footerBox{
+        justify-content: space-around;
+    }
+    
+    .footerPic{
+        height: 39vw;
+    }
+
+    .searchBar{
+        width: 45vw;
+    }
+
+    .submitButton{
+        width: 23vw;
+    }
+
+    #footerLogo{
+        font-size: 22px;
+    }
+
+    #footercopyRight{
+        font-size: 12px;
+    }
+
+    .submitButton{
+        font-size: 125%;
+    }
+
+    .footerDescription{
+        font-size: 15px;
+    }
+
+    .footerTitle{
+        font-size: 45px;
+    }
+
+    .searchBar{
+        height: 55px;
+    }
+    .footerLast{
+        flex-wrap: wrap;
+    }
+}  
+
