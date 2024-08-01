@@ -1271,7 +1271,7 @@ input {
 
 /*mediaQueries*/
 
-@media (min-width:650px) and (max-width: 1060px) {
+@media (min-width:550px) and (max-width: 1060px) {
 
     .heroTitle {
         font-size: 48px;
@@ -1355,6 +1355,7 @@ input {
         width: 175px;
         height: 60px;
         padding: 0;
+        font-size: 16px;
     }
 
     .marsHero img {
@@ -2270,4 +2271,405 @@ input {
         height: 150px;
         bottom: 28vw;
     }
+
+    .neptune{
+        height: 750px;
+    }
 }
+
+@media (min-width:600px) and (max-width: 650px) {
+    
+    .heroTitle{
+        font-size: 38px;
+        width: 450px;
+    }
+
+    .description{
+        width: 380px;
+    }
+
+    .marsHero img{
+        height: 180px;
+    }
+
+    .saturnHero img{
+        height: 240px;
+    }
+
+    .saturnHero{
+        top: 40%;
+    }
+
+    .jupiterHero img{
+        height: 175px;
+    }
+
+    .mercuryHero img{
+        height: 125px;
+    }
+
+    .homePage{
+        height: 650px;
+    }
+
+    .mercuryHero{
+        left: 35%;
+    }
+
+    .earthHero{
+        left: 46%;
+    }
+
+    .whiteplanetHero img{
+        height: 125px;
+    }
+
+    .whiteplanetHero{
+        top: 14%;
+    }
+
+    #venusNav, #earthNav, #marsNav{
+        display: none;
+    }
+
+    .copyRight{
+        font-size: 12px;
+    }
+
+    .logo{
+        font-size: 32px;
+    }
+
+    .sun{
+        height: 760px;
+    }
+
+    .sunCard{
+        width: 200px;
+        height: 100px;
+        padding: 9px 18px;
+    }
+
+    .sunCardTitle{
+        font-size: 12px;
+    }
+
+    .sunTempimg, .sunDiaimg{
+        height: 60px;
+    }
+
+    .sunCardDegree, .sunCardDistance{
+        font-size: 22px;
+        width: 80px;
+    }
+
+    .sunDescription{
+        width: 500px;
+        font-size: 14px;
+    }
+
+    .sunContent{
+        top: 40%;
+    }
+
+    .sunCards{
+        top: 68%;
+    }
+
+    .mercuryOnly{
+        height: 350px;
+    }
+
+    .mercuryImage img{
+        width: 230px;
+    }
+
+    .mercuryLayer1{
+        height: 355px;
+    }
+
+    .mercuryLayer2{
+        height: 360px;
+    }
+
+    .mercuryTitle{
+        font-size: 40px;
+    }
+
+    .mercuryDescription{
+        font-size: 14px;
+        width: 300px;
+    }
+
+    .mercuryContent{
+        left: 50%;
+        top: 7.5%;
+    }
+
+    .merCard{
+        width: 155px;
+        height: 75px;
+        padding: 9px 18px;
+    }
+
+    .merDiameter, .merThermo{
+        height: 55px;
+    }
+
+    .merDegree{
+        width: 130px;
+    }
+
+    .merDistance{
+        width: 100px;
+    }
+
+    .mercuryCards{
+        top: 40%;
+        flex-direction: row;
+        width: 180px;
+        right: 20%;
+    }
+
+    .onlyVenus{
+        height: 340px;
+    }
+
+    .venusLayer1{
+        height: 345px;
+    }
+
+    .venusLayer2{
+        height: 350px;
+    }
+
+    .venCard{
+        width: 140px;
+        height: 100px;
+        padding: 9px 18px;
+    }
+
+    .venusDiaimg, .venustempimg{
+        height: 70px;
+    }
+
+    .venDistance, .venDegree{
+        font-size: 18px;
+    }
+
+    .venusTitle{
+        font-size: 45px;
+    }
+
+    .venusDescription{
+        font-size: 16px;
+        width: 350px;
+    }
+
+    .rocketEarth{
+        height: 140px;
+    }
+
+    .onlyEarth, .earthLayer{
+        width: 100%;
+    }
+
+    .earthTitle{
+        font-size: 45px;
+    }
+
+    .earthDescription{
+        font-size: 16px;
+    }
+
+    .moonTitle{
+        font-size: 25px;
+    }
+
+    .moonContent{
+        top: 50%;
+    }
+
+    .twistedArrow{
+        height: 80px;
+        top: 55%;   
+    }
+
+    .earthCard{
+        top: 30%;
+    }
+
+    .marsOnly{
+        height: 300px;
+        width: 320px;
+    }
+
+    .marsTitle{
+        font-size: 45px;
+    }
+
+    .marsDescription{
+        font-size: 16px;
+    }
+
+    .marCard{
+        width: 200px;
+        height: 100px;
+        padding: 9px 18px;
+    }
+
+    .marDiaPic{
+        height: 60px;
+    }
+
+    .marDegree, .marDistance{
+        font-size: 18px;
+    }
+
+    .marTitle{
+        margin-bottom: 10px;
+    }
+
+    .marsMoonTitle{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .marsMoonDescription{
+        font-size: 12px;
+    }
+
+    .marsMoonContent{
+        left: 70%;
+    }
+
+    .marsArrow{
+        height: 40px;
+        top: 80%;
+        left: 57%;
+    }
+
+    .jupiter{
+        height: 650px;
+    }
+
+    .jupiterTitle{
+        font-size: 45px;
+    }
+
+    .saturnTitle{
+        font-size: 45px;
+    }
+
+    .saturnDescription{
+        font-size: 14px;
+    }
+
+    .satDistance, .satDegree{
+        font-size: 22px;
+    }
+
+    .satCard{
+        padding: 10px 20px;
+        width: 190px;
+        height: 100px;
+    }
+
+    .saturnOnly{
+        top: 23%;
+        height: 320px;
+    }
+
+    .saturn{
+        height: 650px;
+    }
+
+    .uraCard{
+        padding: 10px 20px;
+        width: 190px;
+        height: 100px;
+    }
+
+    .uraDegree, .uraDistance{
+        font-size: 22px;
+    }
+
+    .uranusCards{
+        top: 35%;
+        right: 9%;
+    }
+
+    .uranusTitle{
+        font-size: 45px;
+    }
+
+    .uranusDescription{
+        font-size: 14px;
+        width: 350px;
+    }
+
+    .neptuneTitle{
+        font-size: 45px;
+    }
+
+    .neptuneDescription{
+        font-size: 14px;
+    }
+
+    .nepmoonBig{
+        height: 150px;
+    }
+
+    .nepmoonSmall{
+        height: 70px;
+    }
+
+    .nepCard{
+        padding: 10px 20px;
+        width: 190px;
+        height: 100px;
+    }
+
+    .nepDegree, .nepDistance{
+        font-size: 22px;
+    }
+
+    .neptuneCards{
+        right: 5%;
+        top: 35%;
+    }
+
+    .neptune{
+        height: 750px;
+    }
+
+    .footerTitle{
+        font-size: 40px;
+    }
+
+    .footerDescription{
+        font-size: 14px;
+        width: 550px;
+    }
+
+    #footerLogo{
+        font-size: 24px;
+    }
+
+    #footerEarth, #footerMar{
+        display: none;
+    }
+
+    .searchBar{
+        height: 50px;
+    }
+
+    .submitButton{
+        height: 50px;
+        font-size: 18px;
+        width: 88%;
+    }
+}
+
+
+
