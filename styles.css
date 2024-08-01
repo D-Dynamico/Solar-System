@@ -1269,6 +1269,28 @@ input {
     font-family: 'Inter', sans-serif;
 }
 
+.mailVerification{
+    font-family: "Caveat", cursive;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.correctMsg{
+    color: rgb(88, 230, 11);
+    position: absolute;
+    bottom: 22%;
+    left: 35%;
+    display: none;
+}
+
+.wrongMsg{
+    color: #FF0004;
+    position: absolute;
+    bottom: 22%;
+    left: 35%;
+    display: none;
+}
+
 /*mediaQueries*/
 
 @media (min-width:550px) and (max-width: 1060px) {

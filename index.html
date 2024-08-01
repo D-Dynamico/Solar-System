@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -32,10 +35,10 @@
         <header>
             <a href="#" class="logo">Galactic.io</a>
             <nav class="nbar">
-                <a href="#" class="navLink">Mercury</a>
-                <a href="#" class="navLink" id="venusNav">Venus</a>
-                <a href="#" class="navLink" id="earthNav">Earth</a>
-                <a href="#" class="navLink" id="marsNav">Mars</a>
+                <a href="#mercury" class="navLink">Mercury</a>
+                <a href="#venus" class="navLink" id="venusNav">Venus</a>
+                <a href="#earth" class="navLink" id="earthNav">Earth</a>
+                <a href="#mars" class="navLink" id="marsNav">Mars</a>
                 <a href="#" class="navLink">...</a>
             </nav>
             <div class="copyRight">© 2024SolarSystemDesign</div>
@@ -90,7 +93,7 @@
         </div>
     </section>
 
-    <section class="mercury">
+    <section class="mercury" id="mercury">
         <div class="mercuryImage">
             <img src="IMG/Mercury/onlyMercury.png" alt="mercury" class="mercuryOnly">
             <img src="IMG/Mercury/mercuryLayer1.png" alt="mercury" class="mercuryLayer1">
@@ -145,7 +148,7 @@
         </div>
     </section>
 
-    <section class="venus">
+    <section class="venus" id="venus">
         <div class="venusImage">
             <img src="IMG/Venus/venus.png" alt="venus" class="onlyVenus">
             <img src="IMG/Venus/venusLayer1.png" alt="venus" class="venusLayer1">
@@ -186,7 +189,7 @@
         </div>
     </section>
 
-    <section class="earth">
+    <section class="earth" id="earth">
         <div class="earthImage">
             <div class="orbit">
                 <img src="IMG/Earth/earth.png" alt="earth" class="onlyEarth">
@@ -222,7 +225,7 @@
         </div>
     </section>
 
-    <section class="mars">
+    <section class="mars" id="mars">
         <div class="marsImage">
             <img src="IMG/Mars/mars.png" alt="mercury" class="marsOnly">
             <img src="IMG/Mars/arrow.png" alt="" class="marsArrow">
@@ -455,24 +458,28 @@
             <img src="IMG/Footer/footer.png" alt="halfUranus" class="footerPic">
         </div>
         <div class="footerBox">
-            <div class="footerTitle">Join The Education Comunity</div>
+            <div class="footerTitle">Join The Education Community</div>
             <div class="footerDescription">Join the Education Community today and be part of a movement that's
                 transforming minds and shaping tomorrows.</div>
             <div class="searchBar">
-                <input type="text" placeholder="Enter your E-Mail" class="search">
-                <button type="submit" class="submitButton">Subscribe <div class="arrowMark">→</div></button>
+                <input type="email" required placeholder="Enter your E-Mail" class="search">
+                <button type="submit" class="submitButton">Subscribe <span class="arrowMark">→</span></button>
             </div>
             <div class="footerLast">
-                    <a href="#" class="logo" id="footerLogo">Galactic.io</a>
-                    <nav class="nbar" id="footerNbar">
-                        <a href="#" class="navLink" id="footerMer">Mercury</a>
-                        <a href="#" class="navLink">Venus</a>
-                        <a href="#" class="navLink" id="footerEarth">Earth</a>
-                        <a href="#" class="navLink" id="footerMar">Mars</a>
-                        <a href="#" class="navLink">...</a>
-                    </nav>
-                    <div class="copyRight" id="footercopyRight">© 2024SolarSystemDesign</div>
+                <a href="#" class="logo" id="footerLogo">Galactic.io</a>
+                <nav class="nbar" id="footerNbar">
+                    <a href="#mercury" class="navLink" id="footerMer">Mercury</a>
+                    <a href="#venus" class="navLink">Venus</a>
+                    <a href="#earth" class="navLink" id="footerEarth">Earth</a>
+                    <a href="#mars" class="navLink" id="footerMar">Mars</a>
+                    <a href="#" class="navLink">...</a>
+                </nav>
+                <div class="copyRight" id="footercopyRight">© 2024SolarSystemDesign</div>
             </div>
+        </div>
+        <div class="mailVerification">
+            <div class="correctMsg">✔ Your E-Mail has been successfully Submitted!</div>
+            <div class="wrongMsg">✘ Your E-Mail is invalid. Try Again!</div>
         </div>
     </section>
 
